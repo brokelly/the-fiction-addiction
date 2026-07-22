@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog and Discussions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="CSS\styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Top Naviagtion Menu -->
+<div class="content">
+  <nav class="top-nav">
+        <ul>
+            <li><a href="module6.html" target="_self">Home</a></li>
+            <li><a href="about.html" target="_self">About</a></li>
+            <li><a href="blog.html" target="_self">Blog and Discussions</a></li>
+            <li><a href="lists.html" target="_self">Top Fiction Lists</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Title -->
+    <h1><span class="whimsical-text">Blog and Discussions</span></h1>
+
+      <div class="container">
+        <h2>Submit Your Blog Post</h2>
+        <label>Title: <input type="text" id="blogTitle"></label>
+        <label>Username: <input type="text" id="blogAuthor"></label>
+        <label>Drop some thoughts like they’re hot!<textarea id="blogContent" rows="5"></textarea></label>
+        <button onclick="submitBlogPost()">LOGGITY BLOGGITY</button>
+        <h3>Preview</h3>
+        <div id="blogDisplay">Your blog post will appear here.</div>
+    </div>
+    </div>
+    <div class="foot">
+      The Fiction ADDICTION <br />
+      www.thefictionaddiction.com <br />
+      (612) 867-5309 <br />
+      Eagan, MN 55123
+    </div>
+<script src="js/project6.js"></script>
+
+</body>
+</html>
